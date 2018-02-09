@@ -1,5 +1,4 @@
-# test
-Test repository
+# Test Repository
 
 `master` branch
 
