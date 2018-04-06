@@ -1,6 +1,6 @@
 # Test Repository
 
-`master` branch
+`master` branch.
 
 ## Installation
 - As this module is not available on Packagist, the GitHub repository needs to be added to `composer.json` in the
