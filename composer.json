@@ -1,4 +1,5 @@
 {
   "name": "zionsg/test",
+  "description": "Test",
   "type": "library"
 }
