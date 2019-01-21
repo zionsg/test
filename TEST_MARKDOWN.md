@@ -12,18 +12,18 @@ for section
 
 - 1st item in list
 
-  ```
-  Code block
-  for 1st item in list
-  ```
+    ```
+    Code block
+    for 1st item in list
+    ```
 
 - 2nd item in list
 
-  + 1st subitem for 2nd item in list
+    + 1st subitem for 2nd item in list
 
-    ```
-    Code block
-    1st subitem for 2nd item in list
-    ```
+        ```
+        Code block
+        for 1st subitem for 2nd item in list
+        ```
 
 - 3rd item in list. Has no code blocks.
