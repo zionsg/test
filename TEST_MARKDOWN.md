@@ -3,7 +3,7 @@
 Trying to find Markdown that renders properly in a Markdown editor, GitHub and especially Bitbucket.
 Main issue is with code blocks in lists!
 
-Tested and tried:
+Tested (still does not cover all use cases):
 
 - Lists must start with a blank line before and after them.
 - Code blocks must start with a blank line before and after them.
