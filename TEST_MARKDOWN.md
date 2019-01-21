@@ -5,11 +5,14 @@ Main issue is with code blocks in lists!
 
 Tested and tried:
 
-- Lists must start with a blank line before it.
+- Lists must start with a blank line before and after them.
+- Code blocks must start with a blank line before and after them.
 - For nested lists, indent the subitems such that the bullet character of the subitem is 4 spaces in
   from the bullet character of the parent item.
-- For code blocks in lists, indent the code block such that the 3 backticks are indented 4 spaces in
-  from the bullet character of the list item.
+- The 3 backticks for starting/ending a code block must NOT be indented, i.e. start at the beginning
+  of the line. Bitbucket doesn't know how to handle backticks that are indented in.
+- For code blocks in lists, indent the code such that it is indented 6 spaces in from the bullet
+  character of the list item.
 
 ### Test Section
 
@@ -21,12 +24,10 @@ for section
 - 1st item in list
 
 ```
-      <script>
-        // Code block
-        // for 1st item in list
+      // Code block
+      // for 1st item in list
 
-        let a = 1;
-      </script>
+      let a = 1;
 ```
 
 - 2nd item in list
@@ -34,12 +35,10 @@ for section
     + 1st subitem for 2nd item in list
 
 ```
-          <script>
-            // Code block
-            // for 1st subitem for 2nd item in list
+          // Code block
+          // for 1st subitem for 2nd item in list
 
-            let b = 2.1;
-          </script>
+          let b = 2.1;
 ```
 
 - 3rd item in list. Has no code blocks.
